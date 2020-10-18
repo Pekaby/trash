@@ -3,7 +3,8 @@ function debug($var = '')
 {
     global $_SESSION;
     global $requests;
-
+    global $_COOKIE;
+    
     if ($var == '') {
         echo "<pre>";
         print_r($requests);
